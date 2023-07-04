@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Enroll Patient</title>
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/writeData.css"/>
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../html/about_us.html">About us</a>
+            <a href="#">Enroll Patient</a>
+            <a href="../html/readData.html">Patient database</a>
+            <a href="#">Contact us</a>
+
+            <div class="search_box">
+                <input type="text" placeholder="search" onfocus="keypress()" />
+                <button onclick="search()">search</button>
+            </div>
+        </nav>
+
+        <div class="card-container">
+            <h1>Patient form</h1>
+            <div class="form-card">
+                <input type="text" id="name" placeholder="Name" />
+                <input type="text" id="age" placeholder="Age" />
+                <input type="text" id="email" placeholder="Email" />
+                <input
+                    type="text"
+                    id="medical_condition"
+                    placeholder="Medical Condition"
+                />
+                <input type="text" id="contact" placeholder="Contact number" />
+                <button onclick="collectData()">Submit</button>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="row">
+                <div class="footer_col">
+                    <h4>Communicate through</h4>
+                    <ul>
+                        <li>Email: XXXXXXX@gmail.com</li>
+                        <li><b>Contact number:##########</b></li>
+                        <li><a href="#">Form</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>About us and our system</h4>
+                    <ul>
+                        <li><a href="#">About Our System</a></li>
+                        <li><a href="#">Patient & Family Support</a></li>
+                        <li><a href="#">Refer a Patient</a></li>
+                        <li><a href="#">Nursing</a></li>
+                        <li><a href="#">Hospital Sponsored Programs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>Follow us on</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" target="_blank"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a href="https://www.instagram.com/" target="_blank"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="https://twitter.com/login" target="_blank"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="https://in.linkedin.com/" target="_blank"
+                            ><i class="fab fa-linkedin"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../javascript/writeData.js"></script>
+        <script src="../javascript/searchbox.js"></script>
+    </body>
+</html>

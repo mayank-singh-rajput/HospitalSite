@@ -1,0 +1,36 @@
+
+section.patient-spk {
+    font-family: Lato-Regular, Arial, sans-serif;
+    background-color: #f7f5f5;
+    overflow: auto;  
+    border: 1px solid grey;
+}
+
+section.patient-spk h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    text-align: center;
+    background-color: #e4e4e4;
+    border-bottom: 1px ridge grey;
+    padding: 20px;
+}
+
+section.patient-spk .container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+section.patient-spk .content p.name {
+    color: black;
+    font-weight: bold;
+}
+section.patient-spk .content p.quote {
+    color: grey;
+    font-size: 0.8em;
+}
+
+section.patient-spk .content > *{
+    margin-bottom: 20px;
+}

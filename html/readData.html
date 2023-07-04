@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Patient Database</title>
+        <link rel="stylesheet" href="../css/readData.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../html/about_us.html">About us</a>
+            <a href="../html/writeData.html">Enroll Patient</a>
+            <a href="#">Patient database</a>
+            <a href="#">Contact us</a>
+
+            <div class="search_box">
+                <input type="text" placeholder="search" onfocus="keypress()" />
+                <button onclick="search()">search</button>
+            </div>
+        </nav>
+        <div class="card">
+            <h1>Patient Database</h1>
+            <div class="data">
+                <div class="header">
+                    <div class="child">Id</div>
+                    <div class="child">Name</div>
+                    <div class="child">Age</div>
+                    <div class="child">Email</div>
+                    <div class="child">Medical_Condition</div>
+                    <div class="child">Contact</div>
+                </div>
+                <div class="row-container">
+                    <!-- <div class="row">
+                        <div class="child">null</div>
+                        <div class="child">null</div>
+                        <div class="child">null</div>
+                        <div class="child">null</div>
+                        <div class="child">null</div>
+                        <div class="child">null</div>
+                    </div> -->
+                </div>
+            </div>
+
+            <button onclick="getAllData()">Fetch all data</button>
+
+            <input type="text" placeholder="Search data by id / name"/>
+            <button onclick="getData()">Search</button>
+        </div>
+
+        <footer class="footer">
+            <div class="row">
+                <div class="footer_col">
+                    <h4>Communicate through</h4>
+                    <ul>
+                        <li>Email: XXXXXXX@gmail.com</li>
+                        <li><b>Contact number:##########</b></li>
+                        <li><a href="#">Form</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>About us and our system</h4>
+                    <ul>
+                        <li><a href="#">About Our System</a></li>
+                        <li><a href="#">Patient & Family Support</a></li>
+                        <li><a href="#">Refer a Patient</a></li>
+                        <li><a href="#">Nursing</a></li>
+                        <li><a href="#">Hospital Sponsored Programs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>Follow us on</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" target="_blank"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a href="https://www.instagram.com/" target="_blank"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="https://twitter.com/login" target="_blank"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="https://in.linkedin.com/" target="_blank"
+                            ><i class="fab fa-linkedin"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../javascript/readData.js"></script>
+        <script src="../javascript/searchbox.js"></script>
+    </body>
+</html>

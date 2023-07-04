@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>MAYANK Health care</title>
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <link rel="stylesheet" href="css/covid-report.css" />
+        <link rel="stylesheet" href="css/speciality.css" />
+        <link rel="stylesheet" href="css/patient-spk.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+    </head>
+    <body>
+
+        <header>
+            <div class="upper_section">
+                <div class="logo"></div>
+                <div class="heading">
+                    <span class="text3">MAYANK</span>
+                    <span class="text4">Health care</span>
+                </div>
+            </div>
+
+            <div class="background_container">
+                <div class="blur_container">
+                    <div class="container">
+                        <span class="text1"
+                            >Get back to the things you love.</span
+                        >
+                        <span class="text2"
+                            >Getting a safe and effective Covid-19 vaccine will
+                            help Hoosiers move one step closer to a happier,
+                            healthier future.</span
+                        >
+                        <a
+                            class="button"
+                            href="https://www.elsevier.com/connect/coronavirus-information-center"
+                            target="_blank"
+                            >COVID-19 vaccine information center</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="./html/about_us.html">About us</a>
+            <a href="./html/writeData.html">Enroll Patient</a>
+            <a href="./html/readData.html">Patient database</a>
+            <a href="#footer">Contact us</a>
+
+            <div class="search_box">
+                <input type="text" placeholder="search" onfocus="keypress()" />
+                <button onclick="search()">search</button>
+            </div>
+        </nav>
+
+        <main>
+            <div class="covid-report">
+                <h1>Covid Report (India)</h1>
+                <hr />
+                <div class="data">
+                    <div class="col">
+                        <div class="key">Cases</div>
+                        <hr />
+                        <div class="value">Loading..</div>
+                    </div>
+                    <div class="col">
+                        <div class="key">Recovered</div>
+                        <hr />
+                        <div class="value">Loading..</div>
+                    </div>
+                    <div class="col">
+                        <div class="key">Deaths</div>
+                        <hr />
+                        <div class="value">Loading..</div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button onclick="alldata(this)">All Data</button>
+                    <button onclick="todaydata(this)">Today's Data</button>
+                </div>
+            </div>
+            
+            <section class="speciality-section">   
+                <h1>Our Specialities</h1>
+                <div class="speciality-container">
+                    <div class="speciality">
+                        <div class="circle" name="cardic"></div>
+                        <hr>
+                        <p>Cardic Surgury</p>
+                    </div>
+                    <div class="speciality">
+                        <div class="circle" name="breast-cancer"></div>
+                        <hr>
+                        <p>Breast cancer</p>
+                    </div>
+                    <div class="speciality">
+                        <div class="circle" name="anaesthesia"></div>
+                        <hr>
+                        <p>Anaesthesia</p>
+                    </div>
+                    <div class="speciality">
+                        <div class="circle" name="bone-marrow"></div>
+                        <hr>
+                        <p>Bone Marrow</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="patient-spk">
+                <h1>Our Patient Speaks</h1>
+                <div class="container">
+                    <img src="https://cdn.apollohospitals.com/dev-apollohospitals/2021/04/ourpatientsspeak.jpg" width="450px" alt="Happy Patient">
+                    <div class="content">
+                        <div>
+                            <p class="name">Mayank Rajput</p>
+                            <p class="quote">Sigma rule: #5735 -> Always choose MAYANK health care, its best.</p>
+                        </div>
+                        <div>
+                            <p class="name">Avni Chauhan</p>
+                            <p class="quote">Very good Health care organazation, nowdays to find place like this is really imposible.</p>
+                        </div>    
+                        <div>
+                            <p class="name">Manas Raj</p>
+                            <p class="quote">My old doctor said that i am not going to survive this medical condition, then a frient of mine suggested me MAYANK Health Care and the rest is history.</p>
+                        </div>
+                        <div>
+                            <p class="name">Amit Panday</p>
+                            <p class="quote">I live in USA but ever year i visit India to get my medical checkup in MAYANK Health Care</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="footer">
+            <div class="row">
+                <div class="footer_col">
+                    <h4>Communicate through</h4>
+                    <ul>
+                        <li>Email: MAYANK_healthcare@gmail.com</li>
+                        <li><b>Contact number:@@@@@@@@@@</b></li>
+                        <li><a href="#">Form</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>About us and our system</h4>
+                    <ul>
+                        <li><a href="#">About Our System</a></li>
+                        <li><a href="#">Patient & Family Support</a></li>
+                        <li><a href="#">Refer a Patient</a></li>
+                        <li><a href="#">Nursing</a></li>
+                        <li><a href="#">Hospital Sponsored Programs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>Follow us on</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" target="_blank"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a href="https://www.instagram.com/" target="_blank"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="https://twitter.com/login" target="_blank"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="https://in.linkedin.com/" target="_blank"
+                            ><i class="fab fa-linkedin"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./javascript/covid-report.js"></script>
+        <script src="./javascript/searchbox.js"></script>
+    </body>
+</html>

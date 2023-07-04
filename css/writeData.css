@@ -1,0 +1,73 @@
+body {
+    background-color: #f8f8ff;
+}
+
+div.card-container {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+div.card-container h1 {
+    width: -moz-fit-content;
+    width: fit-content;
+
+    text-align: center;
+
+    color: white;
+    background-color: rgb(68, 140, 255);
+
+    border-radius: 25px;
+
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+div.form-card {
+    max-width: 500px;
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px rgb(146, 146, 146);
+
+    padding: 20px;
+}
+
+.form-card input {
+    width: 100%;
+    font-size: 1.1em;
+    border: none;
+    border-bottom: 2px solid rgb(167, 167, 167);
+    padding: 8px;
+    margin: 10px 0;
+}
+.form-card input:focus {
+    outline: none;
+    border-bottom: 3px solid rgb(68, 140, 255);
+}
+
+.form-card button {
+    display: block;
+
+    color: rgb(104, 104, 104);
+    background-color: white;
+    border: 3px solid rgb(167, 167, 167);
+
+    font-size: 1.1em;
+
+    padding: 5px 10px;
+    margin: 30px auto;
+}
+.form-card button:hover {
+    color: black;
+    cursor: pointer;
+    border-color: rgb(68, 140, 255);
+    box-shadow: 2px 2px 2px grey;
+}
+.form-card button:active {
+    color: black;
+    border-color: transparent;
+    background-color: rgb(68, 140, 255);
+}
